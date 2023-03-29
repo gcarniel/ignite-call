@@ -35,7 +35,6 @@ export default function Register() {
   const router = useRouter()
 
   const handleRegisterSubmit = async (data: UserRegisterFormData) => {
-    console.log(data)
     try {
       await api.post('/users', {
         username: data.username,

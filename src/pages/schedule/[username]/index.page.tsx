@@ -48,8 +48,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     }
   }
 
-  console.log(user)
-
   return {
     props: {
       user: {
