@@ -3,7 +3,7 @@ import { api } from '@/lib/axios'
 import { useQuery } from '@tanstack/react-query'
 import dayjs from 'dayjs'
 import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import {
   Container,
   TimePicker,
