@@ -46,8 +46,7 @@ export default function Register() {
     } catch (err) {
       console.error(err)
       if (err instanceof AxiosError && err?.response?.data?.message) {
-        alert(err.response.data.message)
-        return
+        return alert(err.response.data.message)
       }
     }
   }
